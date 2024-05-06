@@ -34,43 +34,43 @@ Number of Columns: 2
 Largest Column: standard
 ```
 ## For Leads
-Link: New Leads Start Here!
-Link: Schedule a Session
-Link: Prepare For The Session
-Link: Connect with & Adapt to Students
-Link: Guide Discussion and Exploration
-Link: Answer Last Questions and Wrap Up
-Link: Guidelines for choosing appropriate...
-Link: SPOT Lead FAQ
+- Link: New Leads Start Here!
+- Link: Schedule a Session
+- Link: Prepare For The Session
+- Link: Connect with & Adapt to Students
+- Link: Guide Discussion and Exploration
+- Link: Answer Last Questions and Wrap Up
+- Link: Guidelines for choosing appropriate...
+- Link: SPOT Lead FAQ
 
 
 --- column-break ---
 
 ## Lesson Materials & Code
-RB101
-JS101
-PY101
-RB110
-JS110
-PY110
-RB120
-JS120
-PY120
-RB130
-JS130
-PY130
-LS170
-LS180
-RB185
-JS185
-PY185
-LS202
-JS210
-LS215
-LS220
-JS225
-JS230
-TS240
+- RB101
+- JS101
+- PY101
+- RB110
+- JS110
+- PY110
+- RB120
+- JS120
+- PY120
+- RB130
+- JS130
+- PY130
+- LS170
+- LS180
+- RB185
+- JS185
+- PY185
+- LS202
+- JS210
+- LS215
+- LS220
+- JS225
+- JS230
+- TS240
 
 --- end-multi-column
 
