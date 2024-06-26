@@ -30,8 +30,8 @@ print(f"Today is the {day} of {month}")
 >(The user is prompted for the day of the week. The value from the user is explicitly coerced into an integer with the int() function and assigned to the variable day. The print() function is called with an f-string prefix which allows string interpolation. Any expressions within the {} are replaced by the value of the expressions. The values are coerced implicitly into strings The concepts demonstrated here are string interpolation and both explicit and implicit coercion)
 
 ## Numbers, including handling exceptions (ValueError, ZeroDivisionError)
-	
-###	Basic questions: 
+
+###	Basic questions:
 - Are integers and floats mutable or immutable? (Immutable)
 - Are integers and floats primitive or non-primitive? (Primitive)
 - Are integers and floats literals? (Literals)
@@ -113,7 +113,7 @@ print(2 + 3 * 4, 4 * (3 + 2))
 
 ```python
 		str1 = "Hello, world!"
-		sub1 = str1[8:12]
+		sub1 = str1[7:12]
 print(sub1)
 		sub2 = str1[::-1]
 		print(sub2)
@@ -185,7 +185,7 @@ print(stuff)
 
 ```python
 s1 = "Hello"
-print(s1.isalpha()) 
+print(s1.isalpha())
 s2 = "Hello World"
 print(s2.isalpha())
 s3 = "Hello!"
@@ -369,7 +369,7 @@ print(x > 0 and y < 20)
 print(not x == y)
 print(x < y and y < z)
 print(x > y or y > z)
-print(not (x > y)) 
+print(not (x > y))
 ```
 
 ### 3. What do these print and why?
@@ -382,7 +382,7 @@ print(a < b < 30)
 print(a > b or b == 20)
 ```
 
-### 4. What do these print and why? 
+### 4. What do these print and why?
 
 ```python
 my_list = [1, 2, 3, 4, 5]
@@ -390,7 +390,7 @@ print(3 in my_list)
 print(6 not in my_list)
 ```
 
-### 5. What do these print and why? 
+### 5. What do these print and why?
 
 ```python
 temperature = 25
@@ -640,8 +640,8 @@ print(f"Today is the {day} of {month}")
 > (The user is prompted for the day of the week. The value from the user is explicitly coerced into an integer with the int() function and assigned to the variable day. The print() function is called with an f-string prefix which allows string interpolation. Any expressions within the {} are replaced by the value of the expressions. The values are coerced implicitly into strings The concepts demonstrated here are string interpolation and both explicit and implicit coercion)
 
 ## Numbers, including handling exceptions (ValueError, ZeroDivisionError)
-	
-### Basic questions: 
+
+### Basic questions:
 - Are integers and floats mutable or immutable? (Immutable)
 - Are integers and floats primitive or non-primitive? (Primitive)
 - Are integers and floats literals? (Literals)
@@ -797,7 +797,7 @@ print(stuff)
 
 ```python
 s1 = "Hello"
-print(s1.isalpha()) 
+print(s1.isalpha())
 s2 = "Hello World"
 print(s2.isalpha())
 s3 = "Hello!"
@@ -981,7 +981,7 @@ print(x > 0 and y < 20)
 print(not x == y)
 print(x < y and y < z)
 print(x > y or y > z)
-print(not (x > y)) 
+print(not (x > y))
 ```
 
 ### 3. What do these print and why?
@@ -994,7 +994,7 @@ print(a < b < 30)
 print(a > b or b == 20)
 ```
 
-### 4. What do these print and why? 
+### 4. What do these print and why?
 
 ```python
 my_list = [1, 2, 3, 4, 5]
@@ -1002,7 +1002,7 @@ print(3 in my_list)
 print(6 not in my_list)
 ```
 
-### 5. What do these print and why? 
+### 5. What do these print and why?
 
 ```python
 temperature = 25
@@ -1320,8 +1320,8 @@ print(f"Today is the {day} of {month}")
 > (The user is prompted for the day of the week. The value from the user is explicitly coerced into an integer with the int() function and assigned to the variable day. The print() function is called with an f-string prefix which allows string interpolation. Any expressions within the {} are replaced by the value of the expressions. The values are coerced implicitly into strings The concepts demonstrated here are string interpolation and both explicit and implicit coercion)
 
 ## Numbers, including handling exceptions (ValueError, ZeroDivisionError)
-	
-### Basic questions: 
+
+### Basic questions:
 - Are integers and floats mutable or immutable? (Immutable)
 - Are integers and floats primitive or non-primitive? (Primitive)
 - Are integers and floats literals? (Literals)
@@ -1474,7 +1474,7 @@ print(stuff)
 
 ```python
 s1 = "Hello"
-print(s1.isalpha()) 
+print(s1.isalpha())
 s2 = "Hello World"
 print(s2.isalpha())
 s3 = "Hello!"
@@ -1654,7 +1654,7 @@ print(x > 0 and y < 20)
 print(not x == y)
 print(x < y and y < z)
 print(x > y or y > z)
-print(not (x > y)) 
+print(not (x > y))
 ```
 
 ### 3. What do these print and why?
@@ -1667,7 +1667,7 @@ print(a < b < 30)
 print(a > b or b == 20)
 ```
 
-### 4. What do these print and why? 
+### 4. What do these print and why?
 
 ```python
 my_list = [1, 2, 3, 4, 5]
@@ -1675,7 +1675,7 @@ print(3 in my_list)
 print(6 not in my_list)
 ```
 
-### 5. What do these print and why? 
+### 5. What do these print and why?
 
 ```python
 temperature = 25
@@ -1946,8 +1946,8 @@ print(f"Today is the {day} of {month}")
 > (The user is prompted for the day of the week. The value from the user is explicitly coerced into an integer with the int() function and assigned to the variable day. The print() function is called with an f-string prefix which allows string interpolation. Any expressions within the {} are replaced by the value of the expressions. The values are coerced implicitly into strings The concepts demonstrated here are string interpolation and both explicit and implicit coercion)
 
 ## Numbers, including handling exceptions (ValueError, ZeroDivisionError)
-	
-### Basic questions: 
+
+### Basic questions:
 - Are integers and floats mutable or immutable? (Immutable)
 - Are integers and floats primitive or non-primitive? (Primitive)
 - Are integers and floats literals? (Literals)
@@ -2102,7 +2102,7 @@ print(stuff)
 
 ```python
 s1 = "Hello"
-print(s1.isalpha()) 
+print(s1.isalpha())
 s2 = "Hello World"
 print(s2.isalpha())
 s3 = "Hello!"
@@ -2286,7 +2286,7 @@ print(x > 0 and y < 20)
 print(not x == y)
 print(x < y and y < z)
 print(x > y or y > z)
-print(not (x > y)) 
+print(not (x > y))
 ```
 
 ### 3. What do these print and why?
@@ -2299,7 +2299,7 @@ print(a < b < 30)
 print(a > b or b == 20)
 ```
 
-### 4. What do these print and why? 
+### 4. What do these print and why?
 
 ```python
 my_list = [1, 2, 3, 4, 5]
@@ -2307,7 +2307,7 @@ print(3 in my_list)
 print(6 not in my_list)
 ```
 
-### 5. What do these print and why? 
+### 5. What do these print and why?
 
 ```python
 temperature = 25
@@ -2399,7 +2399,7 @@ number_range(25)
 
 ### 1. What does this print and why?
 
-```python 
+```python
 my_list = [1, 2, 3, 4, 5]
 length_of_list = len(my_list)
 print("Length of the list:", length_of_list)
@@ -2843,7 +2843,3 @@ def function(x):
 function(10)
 print(x)
 ```
-
-
-
-
