@@ -11,10 +11,8 @@
             "id": "30d14563c7f2d9d4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,18 +140,31 @@
   },
   "active": "30d14563c7f2d9d4",
   "lastOpenFiles": [
+    "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
+    "Welcome Page.md",
+    "Welcome.md",
+    "().md",
+    "Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
+    "Lesson Materials & Code/RB110/hi.txt",
+    "Lesson Materials & Code/RB101/hello.txt",
+    "Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md",
+    "Lesson Materials & Code/RB101/RB109 Written Questions - From Christian Larwood's.md",
+    "Lesson Materials & Code/RB101/Is Integer Array?.md",
+    "Lesson Materials & Code/RB101/Code Wars Problem Set.md",
+    "Lesson Materials & Code/RB101/Code Wars Problem Set PDF",
+    "Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
+    "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
+    "Lesson Materials & Code/PY101/Python101.md",
+    "Lesson Materials & Code/RB110",
+    "Lesson Materials & Code/RB101",
+    "Lesson Materials & Code/PY110",
+    "Lesson Materials & Code/PY101",
+    "Lesson Materials & Code",
     "SPOT Wiki/Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
     "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF",
-    "SPOT Wiki/Lesson Materials & Code/RB101/fd854246-8e3c-4d74-a85f-3fed9c3d65eb_Export-a71dd507-2a67-45ec-84cb-96ef870a194a",
     "SPOT Wiki/Lesson Materials & Code/RB101/Is Integer Array?.md",
     "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Questions - From Christian Larwood's.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/7d7e0cb3-1b6e-4949-8c5b-b8a3290cfdab_Export-0c7426f1-813c-49c4-94cd-23271fb26af5",
-    "SPOT Wiki/Lesson Materials & Code/RB101/ee6d08f8-b36d-4d0d-a6cb-7e3b3632bb8c_Export-143b0c99-c7be-4e11-b677-9f2c0498a9f8",
-    "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Questions - From Christian Larwood's 91bcc598a24d4ad6aadad86802e7412b.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/84fcd7e0-f1b3-46a8-9179-85dccfcf71e8_Export-ecd1e8e6-f057-4207-8f28-be71d351dfd8",
-    "SPOT Wiki/Lesson Materials & Code/RB101/5efe79df-b265-4061-9d19-a86c249178e0_Export-106b1bb7-a35f-49e8-ac30-3d560e1757bc"
+    "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Questions - From Christian Larwood's 91bcc598a24d4ad6aadad86802e7412b.md"
   ]
 }
