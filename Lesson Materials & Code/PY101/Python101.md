@@ -149,7 +149,7 @@ print(“Hello\nWorld”)
 
 ```python
 name = ‘Abraham Lincoln’
-print(f’”{name} was a President of the US”)
+print(f”{name} was a President of the US”)
 ```
 
 > (This will print Abraham Lincoln was a President of the US. The f prefix in the print function allows the value of the variable to be interpolated and merged with the rest of the print statement. This demonstrates f-strings.)
