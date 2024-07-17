@@ -50,7 +50,7 @@ def convert_to_int(string):
 print(convert_to_int("hello"))
 ```
 
->(The defined function convert_to_int()takes one argument, a string and then explicitly coerces it into an integer. A try except block tests the value for a ValueError. If it passes it, the converted integer is returned. If it does not pass, then the warning string is returned. The concept here is implicit coercion, try except blocks,and ValueError’s.)
+>(The defined function convert_to_int()takes one argument, a string and then explicitly coerces it into an integer. A try except block tests the value for a ValueError. If it passes it, the converted integer is returned. If it does not pass, then the warning string is returned. If the print() is triggered, it will make an implicit coercion into a string. The concept here is explicit and implicit coercion, try except blocks,and ValueError’s.)
 
 ### 2: What does this return and why? What concept does this cover?
 
