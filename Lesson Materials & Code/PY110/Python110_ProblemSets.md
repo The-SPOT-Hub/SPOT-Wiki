@@ -535,9 +535,6 @@ p delete_digit(10) == 1
 # Complete the greatestProduct method so that it'll find the greatest product of five consecutive digits 
 # in the given string of digits.
 
-def greatest_product(n):
-    pass
-
 p greatest_product("123834539327238239583") == 3240
 p greatest_product("395831238345393272382") == 3240
 p greatest_product("92494737828244222221111111532909999") == 5292
