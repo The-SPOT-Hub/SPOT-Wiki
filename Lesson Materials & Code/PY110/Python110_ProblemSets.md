@@ -500,14 +500,6 @@ pockets = {
     'jane': [7]
 }
 
-def find_suspects(pockets, allowed_items):
-    if not pockets:
-        return None
-    
-    suspects = [person for person, items in pockets.items() if any(item in items for item in allowed_items)]
-    
-    return suspects if suspects else None
-
 p find_suspects(pockets, [1, 2]) == ['tom', 'jane']
 p find_suspects(pockets, [1, 7, 5, 2]) == None
 p find_suspects(pockets, []) == ['bob', 'tom', 'jane']

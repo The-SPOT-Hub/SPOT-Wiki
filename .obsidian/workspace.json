@@ -11,8 +11,12 @@
             "id": "30d14563c7f2d9d4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 723.5
   },
   "right": {
     "id": "ff04a429fe5d99b1",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Lesson Materials & Code/PY110/Python110_ProblemSets.md"
+              }
             }
           }
         ]
@@ -138,9 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6c8ebc36a8cd44e",
+  "active": "30d14563c7f2d9d4",
   "lastOpenFiles": [
-    "Lesson Materials & Code/RB101-RB110/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
+    "Lesson Materials & Code/PY101/Python101.md",
+    "Lesson Materials & Code/RB101-RB110/RB110 Live Assessment Codewars Practice Problems.pdf",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
     "Welcome Page.md",
     "Welcome.md",
@@ -155,12 +164,10 @@
     "Lesson Materials & Code/RB101/Code Wars Problem Set PDF",
     "Lesson Materials & Code/RB101-RB110/Assorted Questions from RB101-130 (mostly 101).md",
     "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
-    "Lesson Materials & Code/PY101/Python101.md",
     "Lesson Materials & Code/RB110",
     "Lesson Materials & Code/RB101-RB110",
     "Lesson Materials & Code/PY110",
     "Lesson Materials & Code/PY101",
-    "Lesson Materials & Code",
     "SPOT Wiki/Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set.md",
     "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md",
