@@ -18,8 +18,8 @@ pairs in the list. A pair is defined as two equal integers separated by some
 other integer(s).
 
 Examples:
-pairs([1, 2, 5, 6, 5, 2]) --> 2
-pairs([1, 2, 2, 20, 6, 20, 2, 6, 2]) --> 4
+print(pairs([1, 2, 5, 6, 5, 2]) == 2)
+print(pairs([1, 2, 2, 20, 6, 20, 2, 6, 2]) == 4)
 
 ```
 
