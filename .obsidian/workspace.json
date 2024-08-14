@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson Materials & Code/JS101/Kahoot Trivia.md",
+                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Materials & Code/JS101/Kahoot Trivia.md",
+                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Materials & Code/JS101/Kahoot Trivia.md",
+                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lesson Materials & Code/JS101/Kahoot Trivia.md"
+                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "30d14563c7f2d9d4",
   "lastOpenFiles": [
-    "Lesson Materials & Code/JS101/Manipulate Strings.md",
+    "Lesson Materials & Code/JS120/Tigers and Lions and Ligers! Oh My!.md",
+    "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
+    "Lesson Materials & Code/JS120/Use all Object Creation Patterns.md",
+    "Lesson Materials & Code/JS101/JS101 Tips.md",
+    "Lesson Materials & Code/JS120",
     "Lesson Materials & Code/JS101/Kahoot Trivia.md",
+    "Lesson Materials & Code/JS101/Manipulate Strings.md",
     "Lesson Materials & Code/JS101/Simple Coding Exercises.md",
     "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
     "Lesson Materials & Code/JS101/Untitled",
@@ -170,7 +175,6 @@
     "Lesson Materials & Code/RB101/Code Wars Problem Set PDF",
     "Lesson Materials & Code/RB101-RB110/Assorted Questions from RB101-130 (mostly 101).md",
     "Lesson Materials & Code/RB110",
-    "Lesson Materials & Code/RB101-RB110",
     "SPOT Wiki/Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set.md",
     "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md",
