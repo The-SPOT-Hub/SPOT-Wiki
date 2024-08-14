@@ -204,7 +204,7 @@ is_valid_walk(['n','n','n','s','n','s','n','s','n','s']) # should return F
 # 16. Spin Words
 
 ```python
-Write a function that takes in a string of one or more words and returns the same string, but with all words of five or more letters reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+Write a function that takes in a string of one or more words and returns a string of the same words, but with all words of five or more letters reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
 Examples:
 spin_words("Hey fellow warriors") # should return "Hey wollef sroirraw"
