@@ -3,9 +3,11 @@
 # 1. Count the letters in a string
 
 ```python
-"""Write a function that takes a string as input and counts the occurrences of each
+"""
+Write a function that takes a string as input and counts the occurrences of each
 lowercase letter in the string. Return the counts in a dictionary where the
-letters are keys and their counts are values."""
+letters are keys and their counts are values.
+"""
 
 letter_count('launchschool') #=> { ’a’: 1, ‘c’: 2, ‘h’: 2, ‘l’: 2, ‘o’: 2, ‘u’: 1 }
 ```
@@ -38,9 +40,11 @@ print(solution('aaabbbcccc', 'bbb') == 1) # should return 1
 # 4. Alphabet Symmetry
 
 ```python
+"""
 Write a function that takes a list of words as input and returns a list of
 integers. Each integer represents the count of letters in the word that occupy
 their positions in the alphabet.
+"""
 
 Examples:
 print(solve(["abode","ABc","xyzD"]) == [4, 3, 1]) # should return [4, 3, 1]
@@ -51,8 +55,11 @@ print(solve(["abide","ABc","xyz"]) == [4, 3, 0])# should return [4, 3, 0]
 # 5. Longest Chain of Vowels
 
 ```python
+"""
 Write a function that takes a lowercase string as input and returns the
 length of the longest substring that consists entirely of vowels (a, e, i, o, u).
+"""
+
 
 Examples:
 print(solve("roadwarriors") == 2) # should return 2
@@ -63,8 +70,10 @@ print(solve("suoidea") == 3) # should return 3
 # 6. Odd Number Sub-strings
 
 ```python
+"""
 Write a function that takes a string of integers as input and returns the
 number of substrings that result in an odd number when converted to an integer.
+"""
 
 Examples:
 print(solve("1341") == 7) # should return 7
@@ -75,9 +84,12 @@ print(solve("1357") == 10) # should return 10
 # 7. The Nth Char
 
 ```python
+"""
 Write a function that takes a list of words and constructs a new word by
 concatenating the nth letter from each word, where n is the position of the
 word in the list.
+"""
+
 
 Example:
 print(nth_char(['yoda', 'best', 'has']) == 'yes') # should return 'yes'
@@ -87,9 +99,11 @@ print(nth_char(['yoda', 'best', 'has']) == 'yes') # should return 'yes'
 # 8. Smallest Substring Repeat
 
 ```python
+"""
 Write a function that takes a non-empty string `s` as input and finds the
 minimum substring `t` and the maximum number `k`, such that the entire string
 `s` is equal to `t` repeated `k` times.
+"""
 
 Examples:
 print(("ababab") == ["ab", 3])# should return ["ab", 3]
@@ -99,10 +113,12 @@ print(("ababab") == ["ab", 3])# should return ["ab", 3]
 # 9. Typoglycemia Generator
 
 ```python
+"""
 Write a function that generates text following a pattern where:
 1) the first and last characters of each word remain in their original place
 2) characters between the first and last characters are sorted alphabetically
 3) punctuation should remain at the same place as it started
+"""
 
 Examples:
 print(scramble_words('professionals') == 'paefilnoorsss') # should return 'paefilnoorsss'
@@ -112,6 +128,7 @@ print(cramble_words("you've gotta dance like there's nobody watching, love like 
 # 10. Most Frequent Words
 
 ```python
+"""
 Write a function that, given a string of text, returns a list of the top-3 most
 occurring words, in descending order of the number of occurrences.
 
@@ -120,6 +137,7 @@ Assumptions:
 - Matches should be case-insensitive.
 - Ties may be broken arbitrarily.
 - If a text contains fewer than three unique words, then either the top-2 or top-1 words should be returned, or an empty list if a text contains no words.
+"""
 
 Examples:
 print(top_3_words(" , e .. ") == ["e"]) # ["e"]
@@ -138,8 +156,10 @@ on Sundays, made away with three-quarters of his income.""") == [["a", "of", "on
 # 11. Extract the domain name from a URL
 
 ```python
+"""
 Write a function that, given a URL as a string, parses out just the domain
 name and returns it.
+"""
 
 Examples:
 print(domain_name("http://github.com/carbonfive/raygun") == "github") # should return "github"
@@ -150,9 +170,12 @@ print(domain_name("https://www.cnet.com") == "cnet")# should return "cnet"
 # 12. Detect the Pangram
 
 ```python
+"""
 A pangram is a sentence that contains every single letter of the alphabet at
 least once. Given a string, detect whether or not it is a pangram.
 Return True if it is, False if not. Ignore numbers and punctuation.
+"""
+
 
 Examples:
 print(panagram("The quick brown fox jumps over the lazy dog.") == True)# should return True
@@ -163,9 +186,12 @@ print(panagram("This is not a pangram.") == False) # should return False
 # 13. Kebabize a String
 
 ```python
+"""
+
 Modify the kebabize function so that it converts a camel case string into a
 kebab case. Kebab case separates words with dashes '-'; camel case identifies
 separate words by upcasing the first character in each new word.
+"""
 
 Examples:
 print(kebabize('camelsHaveThreeHumps') == 'camels-have-three-humps')# should return 'camels-have-three-humps'
@@ -176,11 +202,13 @@ print(kebabize('myCamelHas3Humps') == 'my-camel-has-humps') # should return 'my-
 # 14. Dubstep
 
 ```python
+"""
 Write a function to decode a dubstep string to its original form.The string
 may begin and end with one or more "WUB"s and there will be at least one (and
 possibly more) "WUB"s between each word.
 The input consists of a single non-empty string, consisting only of uppercase
 English letters.
+"""
 
 Examples:
 print(song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB") == "WE ARE THE CHAMPIONS MY FRIEND") # should return "WE ARE THE CHAMPIONS MY FRIEND"
@@ -190,9 +218,11 @@ print(song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB") == "WE A
 # 15. Take a Walk
 
 ```python
+"""
 You live in the city of Cartesia where all roads are laid out in a perfect grid. You arrived ten minutes too early to an appointment, so you decided to take the opportunity to go for a short walk. The city provides its citizens with a Walk Generating App on their phones -- every time you press the button it sends you a list of one-letter strings representing directions to walk (e.g., ['n', 's', 'w', 'e']). You always walk only a single block in a direction, and you know it takes you one minute to traverse one city block. Create a function that will return `True` if the walk the app gives you will take you exactly ten minutes (you don't want to be early or late!) and will, of course, return you to your starting point. Return `False` otherwise.
 
 Note: You will always receive a valid list containing a random assortment of direction letters ('n', 's', 'e', or 'w' only). It will never give you an empty list (that's not a walk, that's standing still!).
+"""
 
 Examples:
 print(is_valid_walk(['n','s','n','s','n','s','n','s','n','s']) == True)# should return True
@@ -204,7 +234,9 @@ print(is_valid_walk(['n','n','n','s','n','s','n','s','n','s']) == False) # shoul
 # 16. Spin Words
 
 ```python
+"""
 Write a function that takes in a string of one or more words and returns a string of the same words, but with all words of five or more letters reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
+"""
 
 Examples:
 print(spin_words("Hey fellow warriors") == "Hey wollef sroirraw") # should return "Hey wollef sroirraw"
@@ -216,22 +248,26 @@ print(spin_words("This is another test") == "This is rehtona test")# should retu
 # 17. Expanded Form of Number
 
 ```python
+"""
 You will be given a number, and you need to return it as a string in
 expanded form. For example:
+"""
 
 print(expanded_form(12) == '10 + 2') # should return '10 + 2'
 print(expanded_form(42) == '40 + 2') # should return '40 + 2'
 print(expanded_form(70304)  == '70000 + 300 + 4')# should return '70000 + 300 + 4'
 
-Note: All numbers will be whole numbers greater than 0.
+# Note: All numbers will be whole numbers greater than 0.
 ```
 
 # 18. Multiplicative Persistence
 
 ```python
+"""
 Write a function, persistence, that takes in a positive parameter
 `num` and returns its multiplicative persistence, which is the number
 of times you must multiply the digits in `num` until you reach a single digit.
+"""
 
 Examples:
 print(persistence(39) == 3)# should return 3, because 3*9=27, 2*7=14, 1*4=4
@@ -245,11 +281,13 @@ print(persistence(25) == 2) # should return 2, because 2*5=10, and 1*0=0
 # 19. Title-ize
 
 ```python
+"""
 A string is considered to be in title case if each word in the string is either:
 a) Capitalized (that is, only the first letter of the word is in upper case)
 b) Considered to be an exception and put entirely into lower case unless it is the first word, which is always capitalized.
 
 Write a function that will convert a string into title case, given an optional list of exceptions (minor words). The list of minor words will be given as a string with each word separated by a space. Your function should ignore the case of the minor words string -- it should behave in the same way even if the case of the minor word string is changed.
+"""
 
 Examples:
 print(title_case('a clash of KINGS', 'a an the of') == 'A Clash of Kings')# should return 'A Clash of Kings'
@@ -260,12 +298,14 @@ print(title_case('the quick brown fox') == 'The Quick Brown Fox')# should return
 # 20. Character Count Sorting
 
 ```python
+"""
 Write a function that takes a string as an argument and groups the
 number of times each character appears in the string as a dictionary
 sorted by the highest number of occurrences.
 
 The characters should be sorted alphabetically, and you should ignore
 spaces, special characters, and count uppercase letters as lowercase ones.
+"""
 
 Examples:
 print(get_char_count("Mississippi") == {4: ['i', 's'], 2: ['p'], 1: ['m']})# should return {4: ['i', 's'], 2: ['p'], 1: ['m']}
@@ -278,6 +318,7 @@ print(get_char_count("abc123") == {1: ['1', '2', '3', 'a', 'b', 'c']}) # should 
 # 21. Mine Location
 
 ```python
+"""
 You've just discovered a square (NxN) field and you notice a warning sign.
 The sign states that there's a single bomb in the 2D grid-like field in front
 of you.
@@ -287,6 +328,7 @@ location of the mine. The mine is represented as the integer 1 in the 2D array.
 Areas in the 2D array that are not the mine will be represented as 0s.
 
 The location returned should be an array where the first element is the row index, and the second element is the column index of the bomb location (both should be 0 based). All 2D arrays passed into your function will be square (NxN), and there will only be one mine in the array.
+"""
 
 Examples:
 print(mine_location([[1, 0, 0], [0, 0, 0], [0, 0, 0]]) == [0, 0]) # should return [0, 0]
@@ -300,6 +342,7 @@ print(mine_location([[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 1, 0], [0, 0, 0, 0]]) ==
 # 22. Substring is Anagram?
 
 ```python
+"""
 Write a function `scramble(str1, str2)` that returns `True` if a portion of
 `str1` characters can be rearranged to match `str2`, otherwise returns `False`.
 
@@ -308,6 +351,7 @@ Notes:
 	be included.
 - Performance needs to be considered.
 - Input strings `str1` and `str2` are null terminated.
+"""
 
 Examples:
 print(scramble('rkqodlw', 'world') == True) # should return True
@@ -320,8 +364,10 @@ print(scramble('scriptingjava', 'javascript') == True) # should return True
 # 23. Longest alphabetical substring
 
 ```python
+"""
 Write a function `longest(s)` that finds and returns the longest substring of
 `s` where the characters are in alphabetical order.
+"""
 
 Example:
 print(longest('asd') == 'as')                 # should return 'as'
@@ -336,6 +382,7 @@ print(longest('zyba') == 'z')               # should return 'z'
 # 24. Generate Hashtags
 
 ```python
+"""
 Write a function `generate_hashtag(s)` that generates a hashtag from the given string `s`.
 
 Rules:
@@ -343,6 +390,7 @@ Rules:
 - All words in the hashtag must start with a capital letter.
 - If the resulting hashtag is longer than 140 characters, the function should return `False`.
 - If the input string or the resulting hashtag is an empty string, the function should return `False`.
+"""
 
 Examples:
 print(generate_hashtag("") == False)                      # should return `False`
@@ -358,8 +406,10 @@ print(generate_hashtag("a" * 140)  == False)              # should return `False
 # 25. How many cakes can the baker make?
 
 ```python
+"""
 # Pete is baking cakes and needs help calculating how many he can make with his recipes and available ingredients.
 # Write a function cakes() that takes two dictionaries: the recipe and the available ingredients. Return the maximum number of cakes Pete can bake.
+"""
 
 # Rules:
 # - Ingredients not present in the objects can be considered as 0.
@@ -390,6 +440,7 @@ print(cakes({"cream": 1, "flour": 3, "sugar": 1, "milk": 1, "oil": 1, "eggs": 1}
 # 26. Mean Square
 
 ```python
+"""
 # Create a function that takes two integer lists of equal length, compares the value of each member in one list to the corresponding member in the other,
 # squares the absolute value difference between those two values, and returns the average of those squared absolute value differences between each member pair.
 
@@ -397,6 +448,7 @@ print(cakes({"cream": 1, "flour": 3, "sugar": 1, "milk": 1, "oil": 1, "eggs": 1}
 # [1, 2, 3], [4, 5, 6] --> 9 because (9 + 9 + 9) / 3
 # [10, 20, 10, 2], [10, 25, 5, -2] --> 16.5 because (0 + 25 + 25 + 16) / 4
 # [-1, 0], [0, -1] --> 1 because (1 + 1) / 2
+"""
 
 print(solution([1, 2, 3], [4, 5, 6]) == 9)
 print(solution([10, 20, 10, 2], [10, 25, 5, -2]) == 16.5)
@@ -406,14 +458,17 @@ print(solution([-1, 0], [0, -1]) == 1)
 # 27. List Anagrams
 
 ```python
-# Write a function that finds all the anagrams of a word from a list.
-# Two words are anagrams of each other if they both contain the same letters.
+"""
+Write a function that finds all the anagrams of a word from a list.
+Two words are anagrams of each other if they both contain the same letters.
+
 
 # Examples
 # 'abba' & 'baab' == true
 # 'abba' & 'bbaa' == true
 # 'abba' & 'abbba' == false
 # 'abba' & 'abca' == false
+"""
 
 print(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada']) == ['aabb', 'bbaa'])
 print(anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) == ['carer', 'racer'])
@@ -423,8 +478,10 @@ print(anagrams('laser', ['lazing', 'lazy', 'lacer']) == [])
 # 28. Group by 2 chars
 
 ```python
-# Write a function that splits the string into pairs of two characters.
-# If the string contains an odd number of characters, replace the missing second character of the final pair with an underscore ('_').
+"""
+Write a function that splits the string into pairs of two characters.
+If the string contains an odd number of characters, replace the missing second character of the final pair with an underscore ('_').
+"""
 
 print(solution('abc') == ['ab', 'c_'])
 print(solution('abcdef') == ['ab', 'cd', 'ef'])
@@ -463,10 +520,11 @@ print(is_anagram("dumble", "bumble") == False)
 # 31. Highest Scoring Word
 
 ```python
-# Find the highest scoring word in a string.
-# Each letter scores points based on its position in the alphabet: a = 1, b = 2, c = 3, ... z = 26.
-# Return the highest scoring word. If two words score the same, return the word that appears earliest in the string.
-
+"""
+Find the highest scoring word in a string.
+Each letter scores points based on its position in the alphabet: a = 1, b = 2, c = 3, ... z = 26.
+Return the highest scoring word. If two words score the same, return the word that appears earliest in the string.
+"""
 print(high('man i need a taxi up to ubud') == 'taxi')
 print(high('what time are we climbing up the volcano') == 'volcano')
 print(high('take me to semynak') == 'semynak')
@@ -476,8 +534,10 @@ print(high('aaa b') == 'aaa')
 # 32. Replace Char with Score
 
 ```python
-# Given a string, replace every letter with its position in the alphabet.
-# If anything in the text isn't a letter, ignore it and don't return it.
+"""
+Given a string, replace every letter with its position in the alphabet.
+If anything in the text isn't a letter, ignore it and don't return it.
+"""
 
 print(alphabet_position("The sunset sets at twelve o' clock.") == "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 15 3 11")
 print(alphabet_position("-.-'") == "")
@@ -486,13 +546,14 @@ print(alphabet_position("-.-'") == "")
 # 33. Find the Suspect
 
 ```python
-# Sherlock has to find suspects on his latest case. He will use your method.
-# Suspect in this case is a person which has something not allowed in his/her
-# pockets.
-# Allowed items are defined by a list of numbers.
-# Pockets contents are defined by a dictionary where key is a person and
-# value is one or few things represented by an
-# list of numbers (can be None or empty list if empty).
+"""
+Sherlock has to find suspects on his latest case. He will use your method.
+Suspect in this case is a person which has something not allowed in his/her pockets.
+Allowed items are defined by a list of numbers.
+Pockets contents are defined by a dictionary where key is a person and
+value is one or few things represented by an
+list of numbers (can be None or empty list if empty).
+"""
 
 pockets = {
     'bob': [1],
