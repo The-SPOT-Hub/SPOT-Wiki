@@ -489,10 +489,10 @@ p alphabet_position("-.-'") == ""
 # Sherlock has to find suspects on his latest case. He will use your method.
 # Suspect in this case is a person which has something not allowed in his/her
 # pockets.
-# Allowed items are defined by an array of numbers.
-# Pockets contents are defined by map entries where key is a person and
+# Allowed items are defined by a list of numbers.
+# Pockets contents are defined by a dictionary where key is a person and
 # value is one or few things represented by an
-# array of numbers (can be nil or empty array if empty).
+# list of numbers (can be None or empty list if empty).
 
 pockets = {
     'bob': [1],
