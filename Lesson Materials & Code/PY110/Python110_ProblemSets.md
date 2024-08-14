@@ -390,7 +390,7 @@ cakes({"cream": 1, "flour": 3, "sugar": 1, "milk": 1, "oil": 1, "eggs": 1},{"sug
 # 26. Mean Square
 
 ```python
-# Create a function that takes two integer arrays of equal length, compares the value of each member in one array to the corresponding member in the other,
+# Create a function that takes two integer lists of equal length, compares the value of each member in one list to the corresponding member in the other,
 # squares the absolute value difference between those two values, and returns the average of those squared absolute value differences between each member pair.
 
 # Examples
