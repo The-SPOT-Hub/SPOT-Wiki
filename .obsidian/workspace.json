@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
+                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
+                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
+                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lesson Materials & Code/JS120/Questions - Various Concepts.md"
+                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md"
               }
             }
           }
@@ -148,8 +148,14 @@
   },
   "active": "30d14563c7f2d9d4",
   "lastOpenFiles": [
-    "Lesson Materials & Code/JS120/Tigers and Lions and Ligers! Oh My!.md",
+    "Lesson Materials & Code/RB120/129 Interview Practice Problems.md",
+    "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
+    "Lesson Materials & Code/RB120/OOP Questions (LINK).md",
+    "Lesson Materials & Code/RB120/Practice Spikes.md",
+    "Lesson Materials & Code/RB120/RB129 (code snippet explanations - Link).md",
     "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
+    "Lesson Materials & Code/RB120",
+    "Lesson Materials & Code/JS120/Tigers and Lions and Ligers! Oh My!.md",
     "Lesson Materials & Code/JS120/Use all Object Creation Patterns.md",
     "Lesson Materials & Code/JS101/JS101 Tips.md",
     "Lesson Materials & Code/JS120",
@@ -174,12 +180,9 @@
     "Lesson Materials & Code/RB101/Code Wars Problem Set.md",
     "Lesson Materials & Code/RB101/Code Wars Problem Set PDF",
     "Lesson Materials & Code/RB101-RB110/Assorted Questions from RB101-130 (mostly 101).md",
-    "Lesson Materials & Code/RB110",
     "SPOT Wiki/Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set.md",
     "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Is Integer Array?.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Questions - From Christian Larwood's.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Questions - From Christian Larwood's 91bcc598a24d4ad6aadad86802e7412b.md"
+    "SPOT Wiki/Lesson Materials & Code/RB101/Is Integer Array?.md"
   ]
 }
