@@ -663,10 +663,10 @@ p comp([1, 2], [1, 4, 4]) == False
 # 45. Count Digit Occurences
 
 ```python
-# Your goal is to write the group_and_count method, which should receive an array
-# as a unique parameter and return a hash. Empty or nil input must return nil
-# instead of a hash. This hash returned must contain as keys the unique values
-# of the array, and as values the counting of each value.
+# Your goal is to write the group_and_count method, which should receive a list
+# as a unique parameter and return a dictionary. Empty or None input must return None
+# instead of a dictionary. This dictionary returned must contain as keys the unique values
+# of the list, and as values the counting of each value.
 
 p group_and_count([1,1,2,2,2,3]) == {1: 2, 2: 3, 3: 1}
 p group_and_count([]) == None
@@ -689,11 +689,11 @@ p triple_double(666789, 12345667) == 1 # 3 straight 6's in num1, 2 straight 6's 
 # 47. Find the missing letter
 
 ```python
-# Write a method that takes an array of consecutive (increasing) letters as input
-# and that returns the missing letter in the array.
-# You will always get an valid array. And it will be always exactly one letter be missing.
-# The length of the array will always be at least 2.
-# The array will always contain letters in only one case.
+# Write a method that takes a list of consecutive (increasing) letters as input
+# and that returns the missing letter in the list.
+# You will always get an valid list. And it will be always exactly one letter be missing.
+# The length of the list will always be at least 2.
+# The list will always contain letters in only one case.
 # Example:
 # ['a','b','c','d','f'] -> 'e'
 # ['O','Q','R','S'] -> 'P'
