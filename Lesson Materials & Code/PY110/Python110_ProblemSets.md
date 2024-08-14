@@ -155,8 +155,8 @@ least once. Given a string, detect whether or not it is a pangram.
 Return True if it is, False if not. Ignore numbers and punctuation.
 
 Examples:
-panagram?("The quick brown fox jumps over the lazy dog.") # should return True
-panagram?("This is not a pangram.") # should return False
+panagram("The quick brown fox jumps over the lazy dog.") # should return True
+panagram("This is not a pangram.") # should return False
 
 ```
 
@@ -390,7 +390,7 @@ cakes({"cream"=>1, "flour"=>3, "sugar"=>1, "milk"=>1, "oil"=>1, "eggs"=>1},{"sug
 # 26. Mean Square
 
 ```python
-# Create a function that takes two integer arrays of equal length, compares the value of each member in one array to the corresponding member in the other, 
+# Create a function that takes two integer arrays of equal length, compares the value of each member in one array to the corresponding member in the other,
 # squares the absolute value difference between those two values, and returns the average of those squared absolute value differences between each member pair.
 
 # Examples
@@ -532,7 +532,7 @@ p delete_digit(10) == 1
 # 36. Largest Product in a series
 
 ```python
-# Complete the greatestProduct method so that it'll find the greatest product of five consecutive digits 
+# Complete the greatestProduct method so that it'll find the greatest product of five consecutive digits
 # in the given string of digits.
 
 p greatest_product("123834539327238239583") == 3240
@@ -545,8 +545,8 @@ p greatest_product("02494037820244202221011110532909999") == 0
 # 37. Encode Duplicates
 
 ```python
-# The goal of this exercise is to convert a string to a new string where each character in the new string 
-# is "(" if that character appears only once in the original string, or ")" if that character appears 
+# The goal of this exercise is to convert a string to a new string where each character in the new string
+# is "(" if that character appears only once in the original string, or ")" if that character appears
 # more than once in the original string. Ignore capitalization when determining if a character is a duplicate.
 
 p duplicate_encode("din") == "((("
