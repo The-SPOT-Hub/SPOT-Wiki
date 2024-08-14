@@ -15,9 +15,11 @@ letter_count('launchschool') #=> { ’a’: 1, ‘c’: 2, ‘h’: 2, ‘l’: 
 # 2. Count of Pairs
 
 ```python
+"""
 Write a function that takes a list of integers as input and counts the number of
 pairs in the list. A pair is defined as two equal integers separated by some
 other integer(s).
+"""
 
 Examples:
 print(pairs([1, 2, 5, 6, 5, 2]) == 2)
