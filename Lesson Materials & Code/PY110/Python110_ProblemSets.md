@@ -510,7 +510,7 @@ p find_suspects(pockets, [7]) == ['bob', 'tom']
 
 ```python
 # Create a function that turns a string into a Wave. You will be passed a string
-# and you must return that string in a list where an uppercase letter is a person standing up.
+# and you must return that string in a where an uppercase letter is a person standing up.
 
 p wave("hello") == ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 p wave("") == []
@@ -648,8 +648,8 @@ p dig_pow(695, 2) == 2
 # 44. Squared Array Check
 
 ```python
-# Given two arrays a and b write a function comp(a, b) that checks whether
-# the two arrays have the "same" elements, with the same multiplicities.
+# Given two lists a and b write a function comp(a, b) that checks whether
+# the two lists have the "same" elements, with the same multiplicities.
 # "Same" means, here, that the elements in `b` are the elements in `a` squared,
 # regardless of the order.
 
