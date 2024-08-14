@@ -3,9 +3,9 @@
 # 1. Count the letters in a string
 
 ```python
-Write a function that takes a string as input and counts the occurrences of each
+"""Write a function that takes a string as input and counts the occurrences of each
 lowercase letter in the string. Return the counts in a dictionary where the
-letters are keys and their counts are values.
+letters are keys and their counts are values."""
 
 letter_count('launchschool') #=> { ’a’: 1, ‘c’: 2, ‘h’: 2, ‘l’: 2, ‘o’: 2, ‘u’: 1 }
 ```
