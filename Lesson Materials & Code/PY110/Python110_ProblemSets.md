@@ -510,7 +510,7 @@ p find_suspects(pockets, [7]) == ['bob', 'tom']
 
 ```python
 # Create a function that turns a string into a Wave. You will be passed a string
-# and you must return that string in an array where an uppercase letter is a person standing up.
+# and you must return that string in a list where an uppercase letter is a person standing up.
 
 p wave("hello") == ["Hello", "hEllo", "heLlo", "helLo", "hellO"]
 p wave("") == []
