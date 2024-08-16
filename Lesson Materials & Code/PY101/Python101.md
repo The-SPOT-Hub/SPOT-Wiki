@@ -91,7 +91,7 @@ print(f"x is {x}, y is {y}")
 print(2 + 3 * 4, 4 * (3 + 2))
 ```
 
-> (This will output `14 20` to the screen. Integers can be added together within a print function. The comma allows multiple different mathematical calculations to occur within the same print() function call. This  To remove the space in the output, use the optional sep=  parameter with and empty space ’ ‘. print(2 + 3 * 4, 4 * (3 + 2), sep=' ') The main concept here is order of operations, and the use of commas to allow for separate mathematical operations within a print() function.)
+> (This will output `14 20` to the screen. Integers can be added together within a print function. The comma allows multiple different mathematical calculations to occur within the same print() function call. This  To remove the space in the output, use the optional sep=  parameter with and empty space ’‘. print(2 + 3 * 4, 4 * (3 + 2), sep='') The main concept here is order of operations, and the use of commas to allow for separate mathematical operations within a print() function.)
 
 ### 5. What can be used in place of commas to make this more readable?
 ```python
