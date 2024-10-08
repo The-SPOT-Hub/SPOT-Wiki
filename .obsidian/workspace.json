@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
+                "file": "Lesson Materials & Code/PY101/Python101.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
+                "file": "Lesson Materials & Code/PY101/Python101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
+                "file": "Lesson Materials & Code/PY101/Python101.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md"
+                "file": "Lesson Materials & Code/PY101/Python101.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "30d14563c7f2d9d4",
   "lastOpenFiles": [
-    "Lesson Materials & Code/RB120/129 Interview Practice Problems.md",
+    "Archive/Repeating Material from Python 101.md",
+    "Lesson Materials & Code/PY101/Python101.md",
+    "Archive",
     "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
+    "Lesson Materials & Code/RB120/129 Interview Practice Problems.md",
     "Lesson Materials & Code/RB120/OOP Questions (LINK).md",
     "Lesson Materials & Code/RB120/Practice Spikes.md",
     "Lesson Materials & Code/RB120/RB129 (code snippet explanations - Link).md",
@@ -165,7 +168,6 @@
     "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
     "Lesson Materials & Code/JS101/Untitled",
     "Lesson Materials & Code/JS101",
-    "Lesson Materials & Code/PY101/Python101.md",
     "Lesson Materials & Code/RB101-RB110/RB110 Live Assessment Codewars Practice Problems.pdf",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
     "Welcome Page.md",
@@ -178,11 +180,9 @@
     "Lesson Materials & Code/RB101-RB110/RB109 Written Questions - From Christian Larwood's.md",
     "Lesson Materials & Code/RB101-RB110/Is Integer Array?.md",
     "Lesson Materials & Code/RB101/Code Wars Problem Set.md",
-    "Lesson Materials & Code/RB101/Code Wars Problem Set PDF",
     "Lesson Materials & Code/RB101-RB110/Assorted Questions from RB101-130 (mostly 101).md",
     "SPOT Wiki/Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
     "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Is Integer Array?.md"
+    "SPOT Wiki/Lesson Materials & Code/RB101/RB109 Written Test Terminalogy PDF.md"
   ]
 }
