@@ -51,9 +51,13 @@ def convert_to_int(string):
         return "That string cannot be converted to an integer"
 
 print(convert_to_int("hello"))
+
+print(convert_to_int("5"))
 ```
 
 > (The defined function convert_to_int()takes one argument, a string and then explicitly coerces it into an integer. A try except block tests the value for a ValueError. If it passes it, the converted integer is returned. If it does not pass, then the warning string is returned. The concept here is explicit coercion, try except blocks,and ValueError’s.)
+> 
+> The second call to `convert_to_int` passes a valid string number to the function. In this case, the string is explicitly converted to an integer and returned from the function. The return is passed to the `print` function which then implicitly converts the integer `5` back into a string `"5"`, for output.
 
 ### 2: What does this return and why? What concept does this cover?
 
@@ -72,6 +76,8 @@ print(division(5, 0))
 ```
 
 > (The defined function division takes two integer parameters and divides the 1st number by the 2nd number. The try, except block tests the result for a ZeroDivisionError. If the mathematical value passes the test it is returned. If the value does not pass, then the string “The denominator cannot be zero” is returned. The arguments 5 and 0, when passed to the function division returns the warning string  which is then printed. The concept demonstrated here is try except blocks and ZeroDivisionError’s)
+> 
+> While not demonstrated here, when `print` is passed a non-string value, it will implicitly coerce the value to a string for output. If we were to call `division` with a non-zero integer for the denominator and the function returned an integer, `print` would *implicitly* coerce it into a string for output.
 
 ### 3: What does this print and why, what concept does this demonstrate?
 
