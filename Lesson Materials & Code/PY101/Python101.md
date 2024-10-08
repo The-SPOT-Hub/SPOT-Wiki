@@ -684,5 +684,3 @@ var = 10
 def access():
     print(var)
 ```
-
-git st
