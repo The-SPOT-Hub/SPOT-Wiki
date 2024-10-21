@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson Materials & Code/PY101/Python101.md",
+                "file": "Lesson Materials & Code/RB130/Working With Blocks.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Working With Blocks"
+            }
+          },
+          {
+            "id": "864bd0274a5a75b5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png"
+              },
+              "icon": "lucide-image",
+              "title": "DNS-query-and-response"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -39,7 +54,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +71,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +81,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Materials & Code/PY101/Python101.md",
+                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +114,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DNS-query-and-response"
             }
           },
           {
@@ -102,10 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Materials & Code/PY101/Python101.md",
+                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DNS-query-and-response"
             }
           },
           {
@@ -116,7 +141,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +152,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lesson Materials & Code/PY101/Python101.md"
-              }
+                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DNS-query-and-response"
             }
           }
         ]
@@ -146,43 +175,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30d14563c7f2d9d4",
+  "active": "d6c8ebc36a8cd44e",
   "lastOpenFiles": [
-    "Lesson Materials & Code/PY101/Python101 1.md",
-    "Lesson Materials & Code/PY101/Python101.md",
-    "Archive/Repeating Material from Python 101.md",
-    "Archive",
-    "Lesson Materials & Code/RB120/Guide For Implementing Spikes (video).md",
-    "Lesson Materials & Code/RB120/129 Interview Practice Problems.md",
-    "Lesson Materials & Code/RB120/OOP Questions (LINK).md",
-    "Lesson Materials & Code/RB120/Practice Spikes.md",
-    "Lesson Materials & Code/RB120/RB129 (code snippet explanations - Link).md",
-    "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
-    "Lesson Materials & Code/RB120",
-    "Lesson Materials & Code/JS120/Tigers and Lions and Ligers! Oh My!.md",
-    "Lesson Materials & Code/JS120/Use all Object Creation Patterns.md",
-    "Lesson Materials & Code/JS101/JS101 Tips.md",
-    "Lesson Materials & Code/JS120",
-    "Lesson Materials & Code/JS101/Kahoot Trivia.md",
-    "Lesson Materials & Code/JS101/Manipulate Strings.md",
-    "Lesson Materials & Code/JS101/Simple Coding Exercises.md",
-    "Lesson Materials & Code/PY110/Python110_ProblemSets.md",
-    "Lesson Materials & Code/JS101/Untitled",
-    "Lesson Materials & Code/JS101",
-    "Lesson Materials & Code/RB101-RB110/RB110 Live Assessment Codewars Practice Problems.pdf",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
-    "Welcome Page.md",
-    "Welcome.md",
-    "().md",
-    "Lesson Materials & Code/RB101/Code Wars Problem Set PDF/RB109_Live_Assessment__Codewars_Practice_Problems.pdf",
-    "Lesson Materials & Code/RB110/hi.txt",
-    "Lesson Materials & Code/RB101/hello.txt",
-    "Lesson Materials & Code/RB101-RB110/RB109 Written Test Terminalogy PDF.md",
-    "Lesson Materials & Code/RB101-RB110/RB109 Written Questions - From Christian Larwood's.md",
-    "Lesson Materials & Code/RB101-RB110/Is Integer Array?.md",
-    "Lesson Materials & Code/RB101/Code Wars Problem Set.md",
-    "Lesson Materials & Code/RB101-RB110/Assorted Questions from RB101-130 (mostly 101).md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Assorted Questions from RB101-130 (mostly 101).md",
-    "SPOT Wiki/Lesson Materials & Code/RB101/Code Wars Problem Set.md"
+    "Lesson Materials & Code/JS210/Function Definition Creates Closure.md",
+    "Lesson Materials & Code/JS215/Supermarket (from Codewars).md",
+    "Lesson Materials & Code/JS215/Recycle (from Codewars).md",
+    "Lesson Materials & Code/JS215-20241021T191003Z-001/JS215/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34/Exercise Database 64c3d4de2f764526b300f33e5ff280d6/Untitled.md",
+    "Lesson Materials & Code/JS215/Merge (from Codewars).md",
+    "Lesson Materials & Code/JS215/Duplicates (from Codewars).md",
+    "Lesson Materials & Code/JS215/Doubler.md",
+    "Lesson Materials & Code/JS215/A set of exercises from Edabit recommended by Alex.md",
+    "Lesson Materials & Code/JS215/Doubler note/Notes.md",
+    "Lesson Materials & Code/JS225/JS225 Study Group Idea + Questions.md",
+    "Lesson Materials & Code/JS225/array instance inheritance diagram.md",
+    "Lesson Materials & Code/JS225/array instance inheritance diagram images/improved_array_inheritance_diagram.jpg",
+    "Lesson Materials & Code/JS230/Check your understanding of how concurrancy (async).md",
+    "Lesson Materials & Code/JS230/JS230 Topics Overview.md",
+    "Lesson Materials & Code/LS170/The LS 170 list of practice questions to deeper yo.md",
+    "Lesson Materials & Code/JS230-20241021T191008Z-001/JS230/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34/Exercise Database 64c3d4de2f764526b300f33e5ff280d6",
+    "Lesson Materials & Code/JS230-20241021T191008Z-001/JS230/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34",
+    "Lesson Materials & Code/JS230",
+    "Lesson Materials & Code/JS230-20241021T191008Z-001",
+    "Lesson Materials & Code/JS225/array instance inheritance diagram images",
+    "Lesson Materials & Code/JS225-20241021T191005Z-001/JS225/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34/Exercise Database 64c3d4de2f764526b300f33e5ff280d6",
+    "Lesson Materials & Code/JS225-20241021T191005Z-001/JS225/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34",
+    "Lesson Materials & Code/JS225",
+    "Lesson Materials & Code/JS225-20241021T191005Z-001",
+    "Lesson Materials & Code/JS215/Doubler note",
+    "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r.md",
+    "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
+    "Lesson Materials & Code/LS180/Databases List of Questions.md",
+    "Lesson Materials & Code/LS180/Databases List of Questions Images/Untitled.png",
+    "Lesson Materials & Code/LS180/How To Create Database Diagrams.md",
+    "Lesson Materials & Code/LS180/Tips for LS180 Assessment.md",
+    "Lesson Materials & Code/LS180/SQL Coderpad Questions.md",
+    "Lesson Materials & Code/LS180/Databases List of Questions Images/Untitled 1.png",
+    "Lesson Materials & Code/JS130/JS130 questions on every topic.md",
+    "Lesson Materials & Code/JS130/JS130 Practice Questions.md",
+    "Lesson Materials & Code/RB130/Passing in a Proc as a block to method call.md",
+    "Lesson Materials & Code/RB130/Working With Blocks.md",
+    "Lesson Materials & Code/RB130/A clear way of explaining.md",
+    "Lesson Materials & Code/PY101/Python101.md"
   ]
 }
