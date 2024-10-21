@@ -4,6 +4,7 @@ Course: JS215
 Concepts: Objects
 Last Edited: June 6, 2022 3:56 PM
 
+```js
 // Write a function that takes two or more objects and returns
 // a new object which combines all the input objects.
 
@@ -17,6 +18,8 @@ const objB = { a: 3, c: 6, d: 3 }
 combine(objA, objB) // Returns { a: 13, b: 20, c: 36, d: 3 }
 
 // The combine function should not mutate the input objects.
+```
+
 
 ```jsx
 // Write a function that takes two or more objects and returns 

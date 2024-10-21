@@ -1,9 +1,3 @@
-# Tips for LS180 Assessment
-
-Course: LS180
-Concepts: SQL
-Last Edited: June 6, 2022 3:56 PM
-
 ## Prepare To Write Lots Of SQL Statements
 
 For most of the assessment, you receive questions for which you must write and submit SQL statements.

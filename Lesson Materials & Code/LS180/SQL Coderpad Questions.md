@@ -1,9 +1,3 @@
-# SQL Coderpad Questions
-
-Course: LS180
-Concepts: SQL
-Last Edited: June 6, 2022 3:56 PM
-
 Intro
 Coderpad has a number of built-in tables. If you haven't used Coderpad to practice SQL before, spend a little time getting used to it.
 

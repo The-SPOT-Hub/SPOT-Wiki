@@ -1,9 +1,3 @@
-# JS130 questions on every topic
-
-Course: JS130
-Concepts: Asynchronous, Closure, Hoisting, IIFE, JEST, Written assessment, modules, node, strict mode
-Last Edited: June 6, 2022 3:56 PM
-
 # JS130 Questions
 
 Not all these topics will be in the exam but most will be. I wrote these questions to help me prepare for the exam and I haven't taken the written yet, I hope none coincide with any exam questions. I've taken these directly from the course material to help me prepare.

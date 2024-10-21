@@ -4,6 +4,7 @@ Course: JS215
 Concepts: Objects
 Last Edited: June 6, 2022 3:56 PM
 
+```js
 // Task
 // You will be given a list of objects. Each object has type, material, and
 // possibly secondMaterial. The existing materials are: paper, glass, organic,
@@ -30,12 +31,14 @@ Last Edited: June 6, 2022 3:56 PM
 //   {"type": "beer bottle", "material": "glass", "secondMaterial": "paper"}
 // ]
 
-// output = [
-//   ["wine bottle", "amazon box", "beer bottle"],
-//   ["wine bottle", "beer bottle"],
-//   ["rotten apples", "out of date yogurt"],
-//   ["out of date yogurt"]
-// ]
+output = [
+  ["wine bottle", "amazon box", "beer bottle"],
+  ["wine bottle", "beer bottle"],
+  ["rotten apples", "out of date yogurt"],
+  ["out of date yogurt"]
+]
+```
+
 
 ```jsx
 // Task

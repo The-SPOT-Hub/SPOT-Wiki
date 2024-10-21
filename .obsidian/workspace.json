@@ -25,12 +25,14 @@
             "id": "864bd0274a5a75b5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png"
+                "file": "Lesson Materials & Code/JS101/Manipulate Strings.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "DNS-query-and-response"
+              "icon": "lucide-file",
+              "title": "Manipulate Strings"
             }
           }
         ],
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
+                "file": "Lesson Materials & Code/JS101/Manipulate Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DNS-query-and-response"
+              "title": "Backlinks for Manipulate Strings"
             }
           },
           {
@@ -125,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
+                "file": "Lesson Materials & Code/JS101/Manipulate Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DNS-query-and-response"
+              "title": "Outgoing links from Manipulate Strings"
             }
           },
           {
@@ -152,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png"
+                "file": "Lesson Materials & Code/JS101/Manipulate Strings.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DNS-query-and-response"
+              "title": "Outline of Manipulate Strings"
             }
           }
         ]
@@ -175,23 +177,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6c8ebc36a8cd44e",
+  "active": "864bd0274a5a75b5",
   "lastOpenFiles": [
+    "Lesson Materials & Code/JS101/Kahoot Trivia.md",
+    "Lesson Materials & Code/JS101/JS101 Tips.md",
+    "Lesson Materials & Code/JS120/Use all Object Creation Patterns.md",
+    "Lesson Materials & Code/JS120/Tigers and Lions and Ligers! Oh My!.md",
+    "Lesson Materials & Code/JS120/Questions - Various Concepts.md",
+    "Lesson Materials & Code/JS130/JS130 questions on every topic.md",
+    "Lesson Materials & Code/JS130/JS130 Practice Questions.md",
     "Lesson Materials & Code/JS210/Function Definition Creates Closure.md",
+    "Lesson Materials & Code/PY101/Python101.md",
+    "Lesson Materials & Code/LS180/How To Create Database Diagrams.md",
+    "Lesson Materials & Code/LS180/Tips for LS180 Assessment.md",
+    "Lesson Materials & Code/LS180/SQL Coderpad Questions.md",
+    "Lesson Materials & Code/LS180/Databases List of Questions.md",
+    "Lesson Materials & Code/LS180/Databases List of Questions Images/Untitled.png",
+    "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r.md",
+    "Lesson Materials & Code/LS170/The LS 170 list of practice questions to deeper yo.md",
+    "Lesson Materials & Code/JS230/Check your understanding of how concurrancy (async).md",
+    "Lesson Materials & Code/JS230/JS230 Topics Overview.md",
+    "Lesson Materials & Code/JS215/Doubler note/Notes.md",
     "Lesson Materials & Code/JS215/Supermarket (from Codewars).md",
     "Lesson Materials & Code/JS215/Recycle (from Codewars).md",
-    "Lesson Materials & Code/JS215-20241021T191003Z-001/JS215/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34/Exercise Database 64c3d4de2f764526b300f33e5ff280d6/Untitled.md",
     "Lesson Materials & Code/JS215/Merge (from Codewars).md",
     "Lesson Materials & Code/JS215/Duplicates (from Codewars).md",
     "Lesson Materials & Code/JS215/Doubler.md",
     "Lesson Materials & Code/JS215/A set of exercises from Edabit recommended by Alex.md",
-    "Lesson Materials & Code/JS215/Doubler note/Notes.md",
-    "Lesson Materials & Code/JS225/JS225 Study Group Idea + Questions.md",
-    "Lesson Materials & Code/JS225/array instance inheritance diagram.md",
+    "README.md",
+    "Welcome Page.md",
+    "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
     "Lesson Materials & Code/JS225/array instance inheritance diagram images/improved_array_inheritance_diagram.jpg",
-    "Lesson Materials & Code/JS230/Check your understanding of how concurrancy (async).md",
-    "Lesson Materials & Code/JS230/JS230 Topics Overview.md",
-    "Lesson Materials & Code/LS170/The LS 170 list of practice questions to deeper yo.md",
     "Lesson Materials & Code/JS230-20241021T191008Z-001/JS230/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34/Exercise Database 64c3d4de2f764526b300f33e5ff280d6",
     "Lesson Materials & Code/JS230-20241021T191008Z-001/JS230/SPOT Wiki b58ff38ab84440bdb96797e59ee5fd34",
     "Lesson Materials & Code/JS230",
@@ -202,19 +218,6 @@
     "Lesson Materials & Code/JS225",
     "Lesson Materials & Code/JS225-20241021T191005Z-001",
     "Lesson Materials & Code/JS215/Doubler note",
-    "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r.md",
-    "Lesson Materials & Code/LS170/Using Wireshark to illustrate PDU encapsulation, r Images/DNS-query-and-response.png",
-    "Lesson Materials & Code/LS180/Databases List of Questions.md",
-    "Lesson Materials & Code/LS180/Databases List of Questions Images/Untitled.png",
-    "Lesson Materials & Code/LS180/How To Create Database Diagrams.md",
-    "Lesson Materials & Code/LS180/Tips for LS180 Assessment.md",
-    "Lesson Materials & Code/LS180/SQL Coderpad Questions.md",
-    "Lesson Materials & Code/LS180/Databases List of Questions Images/Untitled 1.png",
-    "Lesson Materials & Code/JS130/JS130 questions on every topic.md",
-    "Lesson Materials & Code/JS130/JS130 Practice Questions.md",
-    "Lesson Materials & Code/RB130/Passing in a Proc as a block to method call.md",
-    "Lesson Materials & Code/RB130/Working With Blocks.md",
-    "Lesson Materials & Code/RB130/A clear way of explaining.md",
-    "Lesson Materials & Code/PY101/Python101.md"
+    "Lesson Materials & Code/LS180/Databases List of Questions Images/Untitled 1.png"
   ]
 }

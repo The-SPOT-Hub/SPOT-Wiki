@@ -1,9 +1,3 @@
-# JS130 Practice Questions
-
-Course: JS130
-Concepts: Closure, Hoisting, IIFE
-Last Edited: June 6, 2022 3:56 PM
-
 - What does strict mode do?
 - Describe hoisting for variables declared with `let` and `const`
 - Describe how variables declared with `var` are hoisted.

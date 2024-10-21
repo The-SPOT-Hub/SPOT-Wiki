@@ -4,6 +4,7 @@ Course: JS215
 Concepts: Objects
 Last Edited: June 6, 2022 3:56 PM
 
+```js
 // You are given a table, in which every key is a stringified number, and each
 // corresponding value is an array of characters, e.g.
 
@@ -64,8 +65,10 @@ Last Edited: June 6, 2022 3:56 PM
 //   "236": ["L", "X", "G", "H"],
 //   "432": ["A", "B", "D"],
 // }
+```
 
-```jsx
+
+```js
 // You are given a table, in which every key is a stringified number, and each 
 // corresponding value is an array of characters, e.g.
 

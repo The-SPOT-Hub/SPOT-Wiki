@@ -1,9 +1,3 @@
-# Function Definition Creates Closure
-
-Course: JS210
-Concepts: Closure
-Last Edited: June 6, 2022 3:56 PM
-
 ### Description
 
 This code demonstrates that a function definition creates an enclosure around all variables that are within the lexical scope within which that function has been defined. 
