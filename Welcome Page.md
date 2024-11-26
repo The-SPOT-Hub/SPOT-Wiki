@@ -19,7 +19,7 @@ If you’re interested in being a Lead and you’ve completed the course that yo
 # Gather Town
 Gather is a virtual meeting space that’s laid out like a 2D adventure game! This public space includes proximity video chat (where your camera and mic will connect with people who are nearby) and private rooms where your camera and mic will only connect with others in the area.
 
-The SPOT’s [GatherTown](https://bit.ly/3vdLlY6) space has plenty of coding sandbox environments available for small and large groups alike (or just for yourself). You can code on your own or in front of others for that extra interview pressure. Look in the channel description for #the-spot to find the space’s password.
+The SPOT’s [GatherTown](https://app.gather.town/app/8EeGq1YHbOo08Xso/launchschool) space has plenty of coding sandbox environments available for small and large groups alike (or just for yourself). You can code on your own or in front of others for that extra interview pressure. Look in the channel description for #the-spot to find the space’s password.
 
 # The SPOT Community Guidlines
 We want everyone here to have a good time while maintaining a conductive learning environment and we’re gonna need your help for that! To that end, here are our community guidelines:
