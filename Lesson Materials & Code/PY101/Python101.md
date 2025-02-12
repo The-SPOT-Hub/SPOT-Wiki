@@ -10,7 +10,7 @@ y = 5
 z = x + y
 ```
 
-> (The variable x is assigned to the float 3.5, the variable y is assigned to the integer 5. The variable  z is assigned value of x + y which is a float, this is an example of implicit coercion)
+> (The variable x is assigned to the float 3.5, the variable y is assigned to the integer 5. The variable z is assigned to the evaluated result of x + y. When x and y are added, y is implicitly coerced to a float as Python can not add different variable types. This is an example of implicit coercion.)
 
 ### 2: What coercion is happening here? Is it implicit or explicit?
 
