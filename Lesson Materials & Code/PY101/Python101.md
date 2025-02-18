@@ -10,7 +10,7 @@ y = 5
 z = x + y
 ```
 
-> (The variable x is assigned to the float 3.5, the variable y is assigned to the integer 5. The variable  z is assigned value of x + y which is a float, this is an example of implicit coercion)
+> (The variable x is assigned to the float 3.5, the variable y is assigned to the integer 5. The variable z is assigned to the evaluated result of x + y. When x and y are added, y is implicitly coerced to a float as Python can not add different variable types. This is an example of implicit coercion.)
 
 ### 2: What coercion is happening here? Is it implicit or explicit?
 
@@ -107,8 +107,8 @@ print(2 + 3 * 4, 4 * (3 + 2))
 
 ```python
 print(123112940)
-  (Underscore can replace commas print(123_112_940))
 ```
+> (Underscore can replace commas print(123_112_940))
 
 ## Strings
 
@@ -126,9 +126,9 @@ print(123112940)
 str1 = "Hello, world!"
 sub1 = str1[8:12]
 print(sub1)
-		sub2 = str1[::-1]
-		print(sub2)
-		sub3 = str1[::2]
+sub2 = str1[::-1]
+print(sub2)
+sub3 = str1[::2]
 print(sub3)
 ```
 
@@ -137,7 +137,7 @@ print(sub3)
 ### 2. What does this print and why? What concept is this?
 
 ```python
-print(“Hello\nWorld”)
+print("Hello\nWorld")
 ```
 
 > (This demonstrates the escape  character \. This will print the string `"Hello"` and then create a new line and print `"World"`)
@@ -145,7 +145,7 @@ print(“Hello\nWorld”)
 ### 3. What does this print and why? What concept is this?
 
 ```python
-name = ‘Alexander Graham Bell’
+name = 'Alexander Graham Bell'
 print(name[0])
 ```
 
@@ -159,8 +159,8 @@ print(name[0])
 ### 1. What does this print and why, what is the concept?
 
 ```python
-name = ‘Abraham Lincoln’
-print(f’”{name} was a President of the US”)
+name = 'Abraham Lincoln'
+print(f"{name} was a President of the US")
 ```
 
 > (This will print Abraham Lincoln was a President of the US. The f prefix in the print function allows the value of the variable to be interpolated and merged with the rest of the print statement. This demonstrates f-strings.)
@@ -174,7 +174,7 @@ print(f’”{name} was a President of the US”)
 ### 1. What does this print and why?
 
 ```python
-mashup = “thIs is How we type careLEssly”
+mashup = "thIs is How we type careLEssly"
 cleaned = mashup.capitalize()
 print(cleaned)
 ```
@@ -182,14 +182,14 @@ print(cleaned)
 ### 2. What do these print and why?
 
 ```python
-stuff = ‘tHIS iS bACKWARDS’
+stuff = 'tHIS iS bACKWARDS'
 str1 = stuff.swapcase()
 str2 = stuff.upper()
 str3 = stuff.lower()
 print(stuff)
-	print(str1)
-	print(str2)
-	print(str3)
+print(str1)
+print(str2)
+print(str3)
 ```
 
 ### 3. What do these print and why?
@@ -265,9 +265,9 @@ else:
 ###  8. What do these print and why?
 ```python
 def punctuation_type(str):
-    if str.upper():
+    if str == str.upper():
         print('This is all caps')
-    elif str.lower():
+    elif str == str.lower():
         print('This is all lowercase')
     else:
         print('Neither')
@@ -293,7 +293,7 @@ print(str2.isspace())
 print(str3.isspace())
 
 sentence = "Hello     World!   How are you?   "
-word_count = sum(1 for word in sentence.split() if word.isspace())
+word_count = sum(1 for word in sentence.split() if not word.isspace())
 print("Number of words in the sentence:", word_count)
 ```
 
@@ -444,7 +444,7 @@ else:
 ### 1. What do these print and why? What concept does this demonstrate?
 
 ```python		
-print(range(0,10)
+print(range(0,10))
 print(len(range(5, 15)))
 print(my_range[1])
 print(str(range(3, 7)))
@@ -473,7 +473,7 @@ def number_range(number):
             print(f'{number} is less than 0')
         case n if n <= 50:
             print(f'{number} is between 0 and 50')
-        case n if n <= 100:
+        case n if 50 < n <= 100:
             print(f'{number} is between 51 and 100')
         case _:
             print(f'{number} is greater than 100')
@@ -541,14 +541,14 @@ ages = {
     "tetiana": 28
 }
 
-def get_val_of_dima(info):
+def get_val_of_dimo(info):
     try:
         info['dimo']
         return info['dimo']
     except KeyError:
         return "Typo"
 
-print(get_val_of_dima(ages))
+print(get_val_of_dimo(ages))
 ```
 
 ### 6. What does this print and why?
@@ -567,7 +567,7 @@ for key in keys:
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 values = my_dict.values()
 print(values)
-		for value in values:
+for value in values:
     print(value)
 ```
 
@@ -578,7 +578,7 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 items = my_dict.items()
 print(items)
 for key, value in items:
-    print( key, value)
+    print(key, value)
 ```
 
 ## variable scope, global keyword, variables as pointers, variable shadowing
@@ -668,14 +668,14 @@ print(var)
 
 ```python
 def function1():
-  x = 10
+    x = 10
 
-  def function2():
-      y = 20
-      print(x)
+    def function2():
+        y = 20
+        print(x)
 
-  function2()
-  print(x)
+    function2()
+    print(x)
 
 function1()
 print(x)
