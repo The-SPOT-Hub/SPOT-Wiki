@@ -1,5 +1,3 @@
-# Python SPOT Wiki
-
 ## Type coercions: explicit (e.g., using int(), str()) and implicit)
 
 ### 1: Which variable is coerced? Is it implicit or explicit coercion?
@@ -55,8 +53,7 @@ print(convert_to_int("hello"))
 print(convert_to_int("5"))
 ```
 
-> (The defined function convert_to_int()takes one argument, a string and then explicitly coerces it into an integer. A try except block tests the value for a ValueError. If it passes it, the converted integer is returned. If it does not pass, then the warning string is returned. The concept here is explicit coercion, try except blocks,and ValueError’s.)
-> 
+>(The defined function convert_to_int()takes one argument, a string and then explicitly coerces it into an integer. A try except block tests the value for a ValueError. If it passes it, the converted integer is returned. If it does not pass, then the warning string is returned. If the print() is triggered, it will make an implicit coercion into a string. The concept here is explicit and implicit coercion, try except blocks,and ValueError’s.)> 
 > The second call to `convert_to_int` passes a valid string number to the function. In this case, the string is explicitly converted to an integer and returned from the function. The return is passed to the `print` function which then implicitly converts the integer `5` back into a string `"5"`, for output.
 
 ### 2: What does this return and why? What concept does this cover?
