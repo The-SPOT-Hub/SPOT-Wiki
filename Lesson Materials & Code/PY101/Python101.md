@@ -18,7 +18,7 @@ b = 2
 print(a + b)
 ```
 
-> (The value of the two integers added together is the integer 3. The print function coerces the 3 into a string, the print() function always coerces any argument into strings. This is an example of implicit coercion)
+> (The value of the two integers added together is the integer 3. The print function coerces the 3 into a string, the print() function always coerces any argument into strings. However, it is not considered to be coercion, because it happens behind the scenes. It doesn't return the resulting strings, it just prints them.)
 
 ### 3: What coercion is happening here? Is it implicit or explicit?
 
