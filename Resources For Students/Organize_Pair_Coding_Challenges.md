@@ -10,7 +10,7 @@ The topics may vary and are completely up to you as an organizer, but some ideas
 - Simple games (either in a terminal or with UI)  (I.E. battleship,  snake, hangman etc.)
 - **creating micro-libraries**
   <details>
-  - **JS micro-library**
+  <summary>- **JS micro-library**</summary>
     - **description and examples:**
         
         **Task:** Building a micro, vanilla JS library
