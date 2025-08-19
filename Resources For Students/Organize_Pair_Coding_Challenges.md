@@ -10,11 +10,11 @@ The topics may vary and are completely up to you as an organizer, but some ideas
 - Simple games (either in a terminal or with UI)  (I.E. battleship,  snake, hangman etc.)
 - **creating micro-libraries**
   <details>
-  - **JS micro-library**
-    - **description and examples:**
+    ### JS micro-library
+      #### description and examples:
         
-        **Task:** Building a micro, vanilla JS library
-        **Groups:** 2-3 ppl
+        Task: Building a micro, vanilla JS library
+        Groups: 2-3 ppl
         
         We are going to build a string manipulation micro-library. 
         
@@ -48,11 +48,11 @@ The topics may vary and are completely up to you as an organizer, but some ideas
         // => “THIS PIZZA IS SO DISGUSTING, YOU IDIOT SANDWICH,  IF YOU TAKE IT TO ITALY YOU’LL GET ARRESTED!!!”
         ```
         
-        [Untitled](https://www.notion.so/b3f16a1a543b4ed19715e28280179603?pvs=21)
+        https://www.notion.so/b3f16a1a543b4ed19715e28280179603?pvs=21
         
-        [Untitled](https://www.notion.so/601b9d8e982045ef97ccb16ffb152245?pvs=21)
+        https://www.notion.so/601b9d8e982045ef97ccb16ffb152245?pvs=21
         
-    - **bonus features:**
+    #### bonus features:
         - A bonus if you use regex at least once!
         - Bonus functions:
             - firstLetterSwichis 
@@ -73,8 +73,7 @@ The topics may vary and are completely up to you as an organizer, but some ideas
             
             - removisDuplicatis
             Removing all consecutive duplicate words from a string, leaving only first words entries.
-    - **solutions (some):**
-        
+    #### solutions (some):
         ```jsx
         function alphaOrderis(givenString) {
           let cleaned = givenString.replace(/[^a-z]/gi, '')
@@ -124,24 +123,23 @@ The topics may vary and are completely up to you as an organizer, but some ideas
 - simple application (I.E. calculator, food ordering app)
 - **mini-programs**
   <details>
-    - **Personal Finance App**
-        - **Description:**
-            - You will be divided into two groups.
-            - Your task for today is to cooperate in order to create a plan for a mini Personal Finance App.
-            - A big plus is if your team will be able to make the app working.
-            - Your app can work in node or browser. It’s entirely up to you.
-            - You have to use at least one of the object creation patterns but you cannot use classes.
-            - Your team has to decide what functionalities are needed and how will organize yourself.
-            - You have time until 12:50 pm (or 45 min) EST so plan your time wisely :)
-            - In the end of the session we will present and discuss:
-                - present how far did your team go
-                - what functionalities does your app have
-                - if you got the app working present how it works
-                - what was the most challenging part
-                - what went well
+    ### Personal Finance App
+      #### Description:
+        - You will be divided into two groups.
+        - Your task for today is to cooperate in order to create a plan for a mini Personal Finance App.
+        - A big plus is if your team will be able to make the app working.
+        - Your app can work in node or browser. It’s entirely up to you.
+        - You have to use at least one of the object creation patterns but you cannot use classes.
+        - Your team has to decide what functionalities are needed and how will organize yourself.
+        - You have time until 12:50 pm (or 45 min) EST so plan your time wisely :)
+        - In the end of the session we will present and discuss:
+            - present how far did your team go
+            - what functionalities does your app have
+            - if you got the app working present how it works
+            - what was the most challenging part
+            - what went well
                 
         - The solution from previous groups:
-            
             ```jsx
             //Programs that we have created: 
             
@@ -281,7 +279,7 @@ The topics may vary and are completely up to you as an organizer, but some ideas
 - mini-websites
 - **mini Express.js application**
   <details>
-      [Pair Coding Challenge](https://www.notion.so/Pair-Coding-Challenge-6bb6abd0d812447cab1fcf80097073ac?pvs=21)
+      Pair Coding Challenge: https://www.notion.so/Pair-Coding-Challenge-6bb6abd0d812447cab1fcf80097073ac?pvs=21
   </details> 
 
 
@@ -292,7 +290,7 @@ It's up to you how long do you want a session like this to last. From other's ex
 
 ### Place
 There are several options of software that you can choose from to host your session:
-- Use the SPOT rooms and/or Breakout rooms in [Gather](https://shorturl.at/YgIKB).
+- **CoderPads** in the SPOT rooms / Breakout rooms in [Gather](https://shorturl.at/YgIKB).
 - **Zoom** (with break-out rooms) - if you have access to the paid version. Unfortunately, we don't have paid Zoom with the possibility for break-out rooms at the SPOT.
 - **Google Meets:** You can simulate break-out rooms by simply creating several links where each corresponds to a room. You can then keep the links in a place where everyone has access to them, such as common coderPad or chat. For example:
     - Main Room: link1
@@ -318,29 +316,26 @@ It's always a good idea to prepare some instructions for the participants before
 
 - **Feel free to use this template:**
   <details>   
-    ## Before the session:
+    ### Before the session:
     
-    **Set-up (directories and modules)**
+    #### Set-up (directories and modules)
+      - directory set-up
+      - installation of modules and libraries
+      - other
     
-    - directory set-up
-    - installation of modules and libraries
-    - other
-    
-    ## During the session:
-    
-    Details: (how much time?, links to repl etc.) 
-    
-    Task: (describe what the groups will do)
-    
-    Steps or hints: *optional (describe what could be some steps that the groups should do) 
+    ### During the session:
+      Details: (how much time?, links to repl etc.) 
+      
+      Task: (describe what the groups will do)
+      
+      Steps or hints: *optional (describe what could be some steps that the groups should do) 
   </details>  
 - **Here is an example of instruction:**
   <details>    
     ### Before the session:
     
-    1. **Set-up (directories and modules)**
-        - **directory set-up:**
-            
+    1. Set-up (directories and modules)
+        - directory set-up:
             ```jsx
             dir_name:
               index.js
@@ -355,16 +350,14 @@ It's always a good idea to prepare some instructions for the participants before
                 - menu.pug
             ```
             
-        - **npm init**
-        - **place node_modules in `.gitignore`**
-        - **install libraries**
-            
+        - npm init
+        - place node_modules in `.gitignore`
+        - install libraries:
             ```jsx
             npm install express morgan express-flash express-session connect-loki express-validator pug --save
             ```
             
-        - **install nodemon**
-            
+        - install nodemon:
             ```jsx
             npm install nodemon --save-dev
             ```
@@ -376,7 +369,7 @@ It's always a good idea to prepare some instructions for the participants before
                 "start": "npx nodemon hello.js",
             ```
             
-        - **require modules**
+        - require modules:
             
             ```jsx
             const express = require("express");
@@ -396,12 +389,12 @@ It's always a good idea to prepare some instructions for the participants before
             app.use(morgan("common"));
             ```
             
-    2. **Visual Studio:**
+    2. Visual Studio:
         - install `life share` extension
     
     ### During The session
     
-    **Task:**
+    #### Task:
     
     Your task for today will be to create a simple application for a local restaurant. The final application should have the following:
     
@@ -472,7 +465,7 @@ It's always a good idea to prepare some instructions for the participants before
     - don't worry about CSS
     - don't worry about form validation at this stage
     
-    **Steps:**
+    Steps:
     
     1. create templates for `index.pug` and `layout.pug`. You can use this bolierplates:
         - for index.pug:
@@ -514,7 +507,7 @@ It's always a good idea to prepare some instructions for the participants before
     5. create a post route for the `order-food`  
     6. store all orders in an `orders` array
     
-    **If you have time:** 
+    If you have time: 
     
     - validate and sanitize user input
     - display an error message if the input is incorrect and a success message if the order has been completed.
