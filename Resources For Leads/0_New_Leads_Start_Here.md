@@ -12,16 +12,17 @@ Have fun!
 ---
 
 ## Signing-Up To Lead a Study Session
-Please refer to the [Schedule a Session](https://www.notion.so/Schedule-a-Session-7a3a7db642b04a2f8ada3511e7e4beb9?pvs=21) guide.
+Please refer to the [Schedule a Session](https://github.com/The-SPOT-Hub/SPOT-Wiki/blob/main/Resources%20For%20Leads/1_Schedule_A_Session.md) guide.
 
 ---
 
 ## Get Familiar with Our Purpose at The Spot
 The SPOT is all about learning together on the path of mastering web development fundamentals.
 
-1. Medium article: [De-Isolate Your Studying](https://medium.com/launch-school/de-isolate-your-studying-104b87667b16)
-2. LS Podcast: [Gabe, Arthur, and Ben on the importance of studying together and community](https://podcast.launchschool.com/gabe-arthur-ben)
-3. LS Podcast: [Community Learning at The Spot with Leena, Rodney, and Christian](https://podcast.launchschool.com/the-spot-leena-rodney-christian)
+1. LS Podcast: [Student Resources - The SPOT & GatherTown](https://podcast.launchschool.com/the-spot)
+2. Medium article: [De-Isolate Your Studying](https://medium.com/launch-school/de-isolate-your-studying-104b87667b16)
+3. LS Podcast: [Gabe, Arthur, and Ben on the importance of studying together and community](https://podcast.launchschool.com/gabe-arthur-ben)
+4. LS Podcast: [Community Learning at The Spot with Leena, Rodney, and Christian](https://podcast.launchschool.com/the-spot-leena-rodney-christian)
 
 **What we are:**
 - a place to review with students
@@ -53,12 +54,14 @@ As a **student**, this means:
 As a **lead**, this means:
 
 1. Lead sessions for classes you have done well in
-2. Coordinate the needed tech for hosting the session (video chat, repl...)
+2. Inform students about how to access Gather and the Coderpads
 3. Ensure students are at the right level or ask them to observe silently
 4. Build collaboration by asking students to answer questions and refine the answers
-5. Do not give answers away from assessments
+5. Do not give answers away from assessments/quizzes
 6. Support each student as they attempt to answer a question in public (this can be nerve-racking for some)
 
 **Everyone:**
 - Report anything that is against the [code of conduct](https://launchschool.com/code_of_conduct) and [community guidelines](https://launchschool.com/community_guidelines)
+
+
 [#the-spot](https://launchschool.slack.com/archives/C017H333RDM) community will be what you make of it and how you nurture it.
