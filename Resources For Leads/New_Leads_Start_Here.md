@@ -1,7 +1,6 @@
 # New Leads Start Here!
 
 ## Helpful Tips to Get Started
----
 First of all, we'd like to thank you for taking your time to lead study sessions and give back to other students. You're awesome! 🌟
 
 As a reminder, being a lead is generous. You're free to lead study sessions when you want and stop organizing study sessions when you don't want.
@@ -10,12 +9,14 @@ It can take a few study sessions before you get comfortable with leading. So, an
 
 Have fun!
 
-## Signing-Up To Lead a Study Session
 ---
+
+## Signing-Up To Lead a Study Session
 Please refer to the [Schedule a Session](https://www.notion.so/Schedule-a-Session-7a3a7db642b04a2f8ada3511e7e4beb9?pvs=21) guide.
 
-## Get Familiar with Our Purpose at The Spot
 ---
+
+## Get Familiar with Our Purpose at The Spot
 The SPOT is all about learning together on the path of mastering web development fundamentals.
 
 1. Medium article: [De-Isolate Your Studying](https://medium.com/launch-school/de-isolate-your-studying-104b87667b16)
@@ -32,8 +33,9 @@ The SPOT is all about learning together on the path of mastering web development
 - not a place to track student performance or anything else
 - not a place to receive compensation for volunteering
 
-## Code Of Etiquette
 ---
+
+## Code Of Etiquette
 As we grow, we'll all have a role to play in keeping this place chill and help integrate new students.
 
 Our goal has always been to empower one another through peer-led sessions.
