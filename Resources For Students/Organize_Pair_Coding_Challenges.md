@@ -10,7 +10,7 @@ The topics may vary and are completely up to you as an organizer, but some ideas
 - Simple games (either in a terminal or with UI)  (I.E. battleship,  snake, hangman etc.)
 - **creating micro-libraries**
   <details>
-  <summary>- **JS micro-library**</summary>
+  - **JS micro-library**
     - **description and examples:**
         
         **Task:** Building a micro, vanilla JS library
@@ -122,8 +122,8 @@ The topics may vary and are completely up to you as an organizer, but some ideas
         ```
   </details>          
 - simple application (I.E. calculator, food ordering app)
-<details>
 - **mini-programs**
+<details>
   - **Personal Finance App**
       - **Description:**
           - You will be divided into two groups.
@@ -140,7 +140,7 @@ The topics may vary and are completely up to you as an organizer, but some ideas
               - what was the most challenging part
               - what went well
               
-      - The s**olution from previous groups:**
+      - The solution from previous groups:
           
           ```jsx
           //Programs that we have created: 
@@ -279,9 +279,8 @@ The topics may vary and are completely up to you as an organizer, but some ideas
           ```
   </details>          
 - mini-websites
-<details>
 - **mini Express.js application**
-    
+<details>
     [Pair Coding Challenge](https://www.notion.so/Pair-Coding-Challenge-6bb6abd0d812447cab1fcf80097073ac?pvs=21)
 </details> 
 
