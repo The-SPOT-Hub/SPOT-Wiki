@@ -5,10 +5,10 @@ Concepts: Networking fundamentals theory
 Last Edited: June 6, 2022 3:56 PM
 
 Disclaimer: The list of the following questions was made before I took the assessment. It is not by any means a list of questions that you will get on the assessment, nor is it a guide that you should be using to prepare for the assessment. Please refer to the official LS170 study guide for topics that will be covered in the assessment. Please treat those questions as a way to help better and deeper understand the topics that are covered in the JS170 and find some blind spots. Some of the questions may go much deeper than the assessment itself while other parts may not be covered at all. 
-<span name="lsbot-exercise">
-1. **What is a network?**
-</span>
-3. **What is the Internet?**
+
+
+1. <span name="lsbot-exercise">**What is a network?**</span>
+2. **What is the Internet?**
 4. **Is the Internet the same thing as a network?** 
 5. **What is WEB (world wide web)**
 6. **What is the difference between network, Internet, and WEB?**
