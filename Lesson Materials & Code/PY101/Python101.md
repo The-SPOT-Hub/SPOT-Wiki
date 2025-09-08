@@ -257,7 +257,7 @@ if name.isupper():
     print("WORLD")
 else:
     print("world")
-    ```
+```
 
 ###  8. What do these print and why?
 ```python
