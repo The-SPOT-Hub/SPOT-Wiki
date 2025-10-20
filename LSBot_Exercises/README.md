@@ -1,6 +1,14 @@
 # Exercise Formatting
 
-This document defines the standard format for all course exercise Markdown files for the SPOT Wiki. When adding new exercises, please use the following template:
+This document defines the standard format for all course exercise Markdown files for the SPOT Wiki.
+
+## Exercise Naming
+
+Exercises should be numbered markdown files. Single digits should be padded with a zero (e.g., `02.md`) for better sorting.
+
+## Exercise Content
+
+When adding new exercises, please use the following template:
 
 ```
 # Course Label
