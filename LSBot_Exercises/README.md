@@ -11,18 +11,23 @@ Problem description/requirements
 ## Examples:
 
 <details>
-  <summary>Hints:</summary>
-  Optional hints.
+<summary>Hints:</summary>
+
+Optional hints.
+
 </details>
 
 <details>
-  <summary>Solution:</summary>
-  Optional solution code or text.
+<summary>Solution:</summary>
+
+Optional solution code or text.
+
 </details>
 
 ---
 
 [Previous](N-1.md) | [Next](N+1.md)
+
 ```
 
 Many components are optional, here's a description of each:
@@ -79,21 +84,21 @@ print(fibonacci(6))  # 8
 ```
 
 <details>
-  <summary>Hints:</summary>
+<summary>Hints:</summary>
 
-  Think about how each Fibonacci number relates to the two before it.
+Think about how each Fibonacci number relates to the two before it.
 
 </details>
 
 <details>
-  <summary>Solution:</summary>
+<summary>Solution:</summary>
 
-  ```python
-  def fibonacci(n):
-      if n <= 1:
-          return n
-      return fibonacci(n - 1) + fibonacci(n - 2)
-  ```
+```python
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+```
 
 </details>
 
