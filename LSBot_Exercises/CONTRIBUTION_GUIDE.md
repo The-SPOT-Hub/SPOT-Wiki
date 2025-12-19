@@ -13,7 +13,7 @@ This document defines the standard format for all course exercise Markdown files
 
 ### Exercise Naming
 
-Exercises should be numbered markdown files. Single digits should be padded with a zero (e.g., `02.md`) for better sorting.
+All exercise files must use the `.md` (Markdown) extension. Exercises should be numbered with zero-padding for single digits (e.g., `01.md`, `02.md`, `15.md`) for better sorting.
 
 ### Exercise Template
 
@@ -154,3 +154,10 @@ Before submitting, verify:
 - Solution is correct if present
 - Navigation links work
 - File follows the template
+- **Do not include "Work in LS Code Editor" buttons** (these will be added by LS staff after your contribution is merged)
+
+### After Your Contribution
+
+Once your pull request is merged by the SPOT team:
+- The SPOT team will coordinate with Launch School staff to add "Work in LS Code Editor" buttons to new exercises
+- **Do not add these buttons yourself** - They are managed by LS staff to ensure consistency across all exercises
