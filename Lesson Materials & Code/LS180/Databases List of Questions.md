@@ -36,7 +36,7 @@ Disclaimer: The list of the following questions was made before I took the asses
     CREATE TABLE classes (
     	id serial PRIMARY KEY,
     	name text,
-    	teacher_id int REFERENCES teaachers (id) 
+    	teacher_id int REFERENCES teachers (id) 
     		ON DELETE CASCADE
     );
     
@@ -71,7 +71,7 @@ Disclaimer: The list of the following questions was made before I took the asses
     CREATE TABLE classes (
     	id serial PRIMARY KEY,
     	name text,
-    	teacher_id int REFERENCES teaachers (id) 
+    	teacher_id int REFERENCES teachers (id) 
     		ON DELETE CASCADE
     );
     ```
@@ -167,7 +167,7 @@ Disclaimer: The list of the following questions was made before I took the asses
     CREATE TABLE classes (
     	id serial PRIMARY KEY,
     	name text,
-    	teacher_id int REFERENCES teaachers (id) 
+    	teacher_id int REFERENCES teachers (id) 
     		ON DELETE CASCADE
     );
     ```
