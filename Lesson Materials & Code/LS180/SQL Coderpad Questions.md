@@ -80,7 +80,7 @@ Department  |                 Employees
     ORDER BY count(employees.id) DESC;
     ```
     
-1. List the `title` of the projects that the employee named "Ava" has done, using a *scalar subquery*.
+4. List the `title` of the projects that the employee named "Ava" has done, using a *scalar subquery*.
 - Possible answer
     
     ```sql
@@ -94,7 +94,7 @@ Department  |                 Employees
 
 _____
 
-1. Let's add a new table to the database for employee birthdays called `employee_birthdays`. What sort of relationship should it have with the current relations? Our new table should include an `id` column as a primary key, a `birthday` column, a `cake_preference` column and an `employee_id` column. All columns should be required (not null).
+5. Let's add a new table to the database for employee birthdays called `employee_birthdays`. What sort of relationship should it have with the current relations? Our new table should include an `id` column as a primary key, a `birthday` column, a `cake_preference` column and an `employee_id` column. All columns should be required (not null).
 - Possible answer
     
     ```jsx
@@ -107,7 +107,7 @@ _____
     ```
     
 
-2. Add a foreign key to the new table to link employee_birthdays to employees. You can do this either by editing the current `CREATE TABLE` statement or by using another statement. Note: If you edit the current `CREATE TABLE` statement, you'll have to `DROP TABLE` before running coderpad.
+6. Add a foreign key to the new table to link employee_birthdays to employees. You can do this either by editing the current `CREATE TABLE` statement or by using another statement. Note: If you edit the current `CREATE TABLE` statement, you'll have to `DROP TABLE` before running coderpad.
 
 - Possible answer
     
@@ -118,7 +118,7 @@ _____
     ```
     
 
-3. Add three rows into employee birthdays.
+7. Add three rows into employee birthdays.
 
 - Possible answer
     
@@ -134,7 +134,7 @@ _____
     ```
     
 
-4. Just to check everything looks good and our tables are joined together, select the first name of each employee along with their cake preference:
+8. Just to check everything looks good and our tables are joined together, select the first name of each employee along with their cake preference:
 
 ```jsx
 first_name |  cake_preference  
@@ -159,8 +159,8 @@ first_name |  cake_preference
 
 Bonus questions:
 
-5. Can you retrieve the same data as the last one using a subquery? 
+9. Can you retrieve the same data as the last one using a subquery? 
 
-6. John Smith was fired. Delete him from the employees table, along with any other data about him.
+10. John Smith was fired. Delete him from the employees table, along with any other data about him.
 
-7. Drop the foreign key constraint that links employee_birthdays to employees
+11. Drop the foreign key constraint that links employee_birthdays to employees
