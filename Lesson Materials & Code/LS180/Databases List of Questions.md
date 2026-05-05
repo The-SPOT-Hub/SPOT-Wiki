@@ -36,7 +36,7 @@ Disclaimer: The list of the following questions was made before I took the asses
     CREATE TABLE classes (
     	id serial PRIMARY KEY,
     	name text,
-    	teacher_id int REFERENCES teaachers (id) 
+    	teacher_id int REFERENCES teachers (id) 
     		ON DELETE CASCADE
     );
     
@@ -71,7 +71,7 @@ Disclaimer: The list of the following questions was made before I took the asses
     CREATE TABLE classes (
     	id serial PRIMARY KEY,
     	name text,
-    	teacher_id int REFERENCES teaachers (id) 
+    	teacher_id int REFERENCES teachers (id) 
     		ON DELETE CASCADE
     );
     ```
@@ -167,7 +167,7 @@ Disclaimer: The list of the following questions was made before I took the asses
     CREATE TABLE classes (
     	id serial PRIMARY KEY,
     	name text,
-    	teacher_id int REFERENCES teaachers (id) 
+    	teacher_id int REFERENCES teachers (id) 
     		ON DELETE CASCADE
     );
     ```
@@ -933,55 +933,3 @@ Disclaimer: The list of the following questions was made before I took the asses
     - the average grade for each class
     - the average grade for each student
     - the average grade from all the subjects that a teacher teaches.
-    
-64. **This code is a result of running a FULL OUTER JOIN on three tables `students`, `students_classes` and `classes`:**
-    
-    ```jsx
-     name  |  name   
-    -------+---------
-     Harry | math
-     Ben   | german
-     Marry | physics
-     Marry | german
-     John  | 
-           | french
-    (6 rows)
-    ```
-    
-    This is how the tables look like:
-    
-    ```jsx
-    table 'classes'
-    id |  name   
-    ----+---------
-      1 | math
-      2 | german
-      3 | physics
-      4 | french
-    
-    table 'students'
-    
-     id | name  | year_of_birth | 
-    ----+-------+---------------+
-      1 | Harry |  1987-02-04   |  
-      2 | Ben   |  1976-11-13   | 
-      3 | Marry |  1995-03-21   | 
-      4 | John  |  1994-13-21   |  
-    
-    table 'students-classes'
-    
-     id | class_id | student_id | 
-    ----+----------+------------+
-      1 |      1   |   1
-      2 |      2   |   2
-      3 |      3   |   3
-      4 |      2   |   3
-    ```
-    
-    We know that each JOIN operation creates a virtual table. How did the virtual table from the first JOIN operation look like? 
-    
-65. **Write a query that returns words concatenated into a single column:** 
-    - Johny
-    - Likes
-    - Mc
-    - Donald's
